@@ -6,5 +6,6 @@
   "transformerClass": "at.luca.antiitemdrop.transformer.NetHandlerPlayClientTransformer",
   "version": 1,
   "author": "Luca100",
-  "category": 2
+  "category": 2,
+  "icon": "https://i.imgur.com/GdRy7jc.png"
 }
