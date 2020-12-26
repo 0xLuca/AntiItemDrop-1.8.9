@@ -2,6 +2,7 @@ package at.luca.antiitemdrop;
 
 import net.labymod.api.LabyModAddon;
 import net.labymod.core.asm.LabyModCoreMod;
+import net.labymod.mojang.inventory.GuiInventoryCustom;
 import net.labymod.settings.elements.SettingsElement;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiChest;
@@ -56,18 +57,19 @@ public class AntiItemDrop extends LabyModAddon {
             return true;
         }
         GuiContainer container = (GuiContainer) minecraft.currentScreen;
-        if (container instanceof GuiChest) {
-            GuiChest chest = (GuiChest) container;
-            String title;
-            try {
-                title = ((IInventory) lowerInventoryField.get(chest)).getDisplayName().getUnformattedText();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-                return true;
-            }
+        if (container instanceof GuiChest || container instanceof GuiInventoryCustom) {
+            if (container instanceof GuiChest) {
+                GuiChest chest = (GuiChest) container;
+                String title = "";
+                try {
+                    title = ((IInventory) lowerInventoryField.get(chest)).getDisplayName().getUnformattedText();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                }
 
-            if (!title.equals("Ender Chest")) {
-                return true;
+                if (!title.equals("Ender Chest")) {
+                    return true;
+                }
             }
 
             ItemStack stack = container.inventorySlots.getSlot(windowClickPacket.getSlotId()).getStack();
@@ -78,6 +80,7 @@ public class AntiItemDrop extends LabyModAddon {
                 Minecraft.getMinecraft().thePlayer.sendQueue.getNetworkManager().sendPacket(lastSentPacket);
             }
         }
+
         return true;
     }
 }
