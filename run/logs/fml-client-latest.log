@@ -1,0 +1,822 @@
+[07:18:22] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[07:18:22] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.1855 for Minecraft 1.8.9 loading
+[07:18:22] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_275, running on Linux:amd64:5.4.0-58-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[07:18:22] [main/DEBUG] [FML/]: Java classpath at launch is /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/luca/Development/LabyMod/AntiItemDrop/libs/lm_api_mc1.8.9.jar:/home/luca/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/home/luca/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/home/luca/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1855/stable/20/forgeSrc-1.8.9-11.15.1.1855.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar:/home/luca/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/home/luca/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/home/luca/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/home/luca/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/home/luca/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/home/luca/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/home/luca/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar:/home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar:/home/luca/Development/LabyMod/AntiItemDrop/build/classes/main:/home/luca/Development/LabyMod/AntiItemDrop/build/resources/main:/home/luca/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1855/start:/opt/idea-IC-203.5981.155/lib/idea_rt.jar
+[07:18:22] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/luca/.gradle/caches/minecraft/net/minecraft/natives/1.8.9
+[07:18:22] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[07:18:22] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[07:18:22] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[07:18:22] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[07:18:22] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[07:18:22] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[07:18:22] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[07:18:22] [main/INFO] [FML/]: Found a command line coremod : net.labymod.core.asm.LabyModCoreMod
+[07:18:22] [main/DEBUG] [FML/]: Instantiating coremod class LabyModCoreMod
+[07:18:22] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] Started debug logging
+[07:18:22] [main/WARN] [FML/]: The coremod net.labymod.core.asm.LabyModCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[07:18:22] [main/DEBUG] [FML/]: Enqueued coremod LabyModCoreMod
+[07:18:22] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/luca/Development/LabyMod/AntiItemDrop/run/.
+[07:18:22] [main/DEBUG] [FML/]: Discovering coremods
+[07:18:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[07:18:22] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[07:18:22] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[07:18:22] [main/INFO] [GradleStart/]: Injecting location in coremod net.labymod.core.asm.LabyModCoreMod
+[07:18:22] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:18:22] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:18:22] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[07:18:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:18:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[07:18:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:18:22] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[07:18:22] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[07:18:22] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[07:18:22] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[07:18:22] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[07:18:22] [main/DEBUG] [FML/]: Injection complete
+[07:18:22] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[07:18:22] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[07:18:22] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[07:18:22] [main/DEBUG] [FML/]: Loading deobfuscation resource /home/luca/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/20/srgs/srg-mcp.srg with 27884 records
+[07:18:23] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[07:18:23] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[07:18:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:18:23] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[07:18:23] [main/DEBUG] [FML/]: Injection complete
+[07:18:23] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[07:18:23] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[07:18:23] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[07:18:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[07:18:23] [main/DEBUG] [FML/]: Injecting coremod LabyModCoreMod {net.labymod.core.asm.LabyModCoreMod} class transformers
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ADDON] Given addon resources: addon.json
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ADDON] Loading resource addon.json: true
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ADDON] Added transformer: at.luca.antiitemdrop.transformer.NetHandlerPlayClientTransformer
+[07:18:23] [main/TRACE] [FML/]: Registering transformer net.labymod.core.asm.LabyModTransformer
+[07:18:23] [main/TRACE] [FML/]: Registering transformer at.luca.antiitemdrop.transformer.NetHandlerPlayClientTransformer
+[07:18:23] [main/DEBUG] [FML/]: Injection complete
+[07:18:23] [main/DEBUG] [FML/]: Running coremod plugin for LabyModCoreMod {net.labymod.core.asm.LabyModCoreMod}
+[07:18:23] [main/DEBUG] [FML/]: Running coremod plugin LabyModCoreMod
+[07:18:23] [main/DEBUG] [FML/]: Coremod plugin class LabyModCoreMod run successfully
+[07:18:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[07:18:23] [main/DEBUG] [FML/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[07:18:23] [main/DEBUG] [FML/]: Validating minecraft
+[07:18:23] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[07:18:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[07:18:23] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:18:23] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.main.Main...
+[07:18:23] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.Minecraft...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiScreen...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.entity.player.EntityPlayer...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.entity.EntityLivingBase...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.entity.Entity...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.entity.EntityPlayerSP...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.gui.inventory.GuiContainer...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiIngame...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraftforge.client.GuiIngameForge...
+[07:18:23] [main/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiMainMenu...
+[07:18:24] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.item.Item...
+[07:18:24] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.item.ItemStack...
+[07:18:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,002s
+[07:18:25] [Client thread/INFO] [net.labymod.support.util.CapturePrintStream/]: ---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 26.12.20 07:18
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Linux (amd64) version 5.4.0-58-generic
+	Java Version: 1.8.0_275, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 136016448 bytes (129 MB) / 553123840 bytes (527 MB) up to 3733979136 bytes (3561 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+LabyModCoreMod (lm_api_mc1.8.9.jar)
+  net.labymod.core.asm.LabyModTransformer
+  at.luca.antiitemdrop.transformer.NetHandlerPlayClientTransformer
+	GL info: ' Vendor: 'X.Org' Version: '4.6 (Compatibility Profile) Mesa 20.0.8' Renderer: 'Radeon RX 580 Series (POLARIS10, DRM 3.35.0, 5.4.0-58-generic, LLVM 10.0.0)'
+[07:18:25] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - Animation took 0,000s
+[07:18:25] [Client thread/INFO] [FML/]: MinecraftForge v11.15.1.1855 Initialized
+[07:18:25] [Client thread/INFO] [FML/]: Replaced 229 ore recipies
+[07:18:25] [Client thread/DEBUG] [FML/]: File /home/luca/Development/LabyMod/AntiItemDrop/run/config/injectedDependencies.json not found. No dependencies injected
+[07:18:25] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[07:18:25] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/share/java/java-atk-wrapper.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/management-agent.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/Development/LabyMod/AntiItemDrop/libs/lm_api_mc1.8.9.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1855/stable/20/forgeSrc-1.8.9-11.15.1.1855.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /home/luca/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar
+[07:18:25] [Client thread/TRACE] [FML/]: Skipping known library file /home/luca/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/luca/Development/LabyMod/AntiItemDrop/build/classes/main, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/luca/Development/LabyMod/AntiItemDrop/build/resources/main, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at /home/luca/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.1855/start, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Found a minecraft related file at /opt/idea-IC-203.5981.155/lib/idea_rt.jar, examining for mod candidates
+[07:18:25] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[07:18:25] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[07:18:25] [Client thread/INFO] [FML/]: Searching /home/luca/Development/LabyMod/AntiItemDrop/run/mods for mods
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file charsets.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container charsets.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file cldrdata.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container cldrdata.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file dnsns.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container dnsns.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file icedtea-sound.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container icedtea-sound.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file jaccess.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container jaccess.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file java-atk-wrapper.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container java-atk-wrapper.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file localedata.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container localedata.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file nashorn.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container nashorn.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file sunec.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container sunec.jar appears to be missing an mcmod.info file
+[07:18:25] [Client thread/DEBUG] [FML/]: Examining file sunjce_provider.jar for potential mods
+[07:18:25] [Client thread/DEBUG] [FML/]: The mod container sunjce_provider.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file sunpkcs11.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container sunpkcs11.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file zipfs.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container zipfs.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jce.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jce.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jfr.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jfr.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jsse.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jsse.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file management-agent.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container management-agent.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file resources.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container resources.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file lm_api_mc1.8.9.jar for potential mods
+[07:18:26] [Client thread/TRACE] [FML/]: Located mcmod.info file in file lm_api_mc1.8.9.jar
+[07:18:26] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.labymod.main.LabyMod) - loading
+[07:18:26] [Client thread/TRACE] [labymod/]: Parsed dependency info : [] [] []
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.8.9-11.15.1.1855.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.8.9-11.15.1.1855.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file oshi-core-1.1.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container oshi-core-1.1.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jna-3.4.0.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jna-3.4.0.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file platform-3.4.0.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container platform-3.4.0.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jline-2.13.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jline-2.13.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining directory main for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory main
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at.luca
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at.luca.antiitemdrop
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at.luca.antiitemdrop.gui
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at.luca.antiitemdrop.secure
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package at.luca.antiitemdrop.transformer
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining directory main for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory main
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package net
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[07:18:26] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[07:18:26] [Client thread/DEBUG] [FML/]: Examining file idea_rt.jar for potential mods
+[07:18:26] [Client thread/DEBUG] [FML/]: The mod container idea_rt.jar appears to be missing an mcmod.info file
+[07:18:26] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[07:18:26] [Client thread/TRACE] [FML/]: Received a system property request ''
+[07:18:26] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[07:18:26] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[07:18:26] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.1855.jar [en_US, en_US]
+[07:18:26] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.1855.jar [en_US, en_US]
+[07:18:26] [Client thread/DEBUG] [labymod/]: Enabling mod labymod
+[07:18:26] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[07:18:26] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[07:18:26] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[07:18:26] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[07:18:26] [Client thread/DEBUG] [FML/]: Mod sorting data
+[07:18:26] [Client thread/DEBUG] [FML/]: 	labymod(LabyMod:3.7.4): lm_api_mc1.8.9.jar ()
+[07:18:26] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[07:18:26] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[07:18:26] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,001s
+[07:18:26] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[07:18:26] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[07:18:26] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[07:18:26] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[07:18:26] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, labymod] at CLIENT
+[07:18:26] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, labymod] at SERVER
+[07:18:26] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[07:18:26] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,139s
+[07:18:26] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[07:18:26] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[07:18:26] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[07:18:26] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.1855)
+[07:18:26] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[07:18:26] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,003s
+[07:18:26] [Client thread/TRACE] [labymod/labymod]: Sending event FMLConstructionEvent to mod labymod
+[07:18:27] [Client thread/TRACE] [FML/labymod]: Mod labymod is using network checker : Accepting version 3.7.4
+[07:18:27] [Client thread/TRACE] [FML/labymod]: Testing mod labymod to verify it accepts its own version in a remote connection
+[07:18:27] [Client thread/TRACE] [FML/labymod]: The mod labymod accepts its own version (3.7.4)
+[07:18:27] [Client thread/DEBUG] [FML/labymod]: Attempting to inject @SidedProxy classes into labymod
+[07:18:27] [Client thread/TRACE] [labymod/labymod]: Sent event FMLConstructionEvent to mod labymod
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Construction - LabyMod took 0,216s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 0,359s
+[07:18:27] [Client thread/DEBUG] [FML/]: Mod signature data
+[07:18:27] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[07:18:27] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[07:18:27] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[07:18:27] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8.9-11.15.1.1855.jar
+[07:18:27] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.15.1.1855)	forgeSrc-1.8.9-11.15.1.1855.jar
+[07:18:27] [Client thread/DEBUG] [FML/]: 		labymod	(LabyMod	3.7.4)	lm_api_mc1.8.9.jar
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,002s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,006s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,005s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:LabyMod took 0,001s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 0,018s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0,018s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0,032s
+[07:18:27] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:18:27] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:18:27] [Client thread/DEBUG] [LabyMod/]: Mod LabyMod is missing a pack.mcmeta file, substituting a dummy one
+[07:18:27] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[07:18:27] [Client thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[07:18:27] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[07:18:27] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[07:18:27] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[07:18:27] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,000s
+[07:18:27] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[07:18:27] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,009s
+[07:18:27] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[07:18:27] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[07:18:27] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,026s
+[07:18:27] [Client thread/TRACE] [labymod/labymod]: Sending event FMLPreInitializationEvent to mod labymod
+[07:18:27] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07:18:27] [Client thread/TRACE] [labymod/labymod]: Sent event FMLPreInitializationEvent to mod labymod
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - LabyMod took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,036s
+[07:18:27] [Client thread/INFO] [FML/]: Applying holder lookups
+[07:18:27] [Client thread/INFO] [FML/]: Holder lookups applied
+[07:18:27] [Client thread/INFO] [FML/]: Injecting itemstacks
+[07:18:27] [Client thread/INFO] [FML/]: Itemstack injection complete
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0,000s
+[07:18:27] [Client thread/INFO] [net.labymod.support.util.CapturePrintStream/]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[07:18:27] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2854",
+    "1.12.2-recommended": "14.23.5.2854",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.23",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.47",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.13",
+    "1.16.4-recommended": "35.1.4",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[07:18:27] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: OUTDATED Target: 11.15.1.2318
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 0,280s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,003s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,002s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,003s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,004s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0,007s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0,000s
+[07:18:27] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0,000s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0,689s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0,210s
+[07:18:28] [Client thread/INFO] [FML/]: Max texture size: 16384
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,001s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,002s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 1,226s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 1,263s
+[07:18:28] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.renderer.entity.RenderManager...
+[07:18:28] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.model.ModelBiped...
+[07:18:28] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.renderer.ItemRenderer...
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0,001s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0,089s
+[07:18:28] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.renderer.EntityRenderer...
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0,000s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0,000s
+[07:18:28] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.renderer.RenderGlobal...
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0,000s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0,079s
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 1,438s
+[07:18:28] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[07:18:28] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[07:18:28] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[07:18:28] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,000s
+[07:18:28] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[07:18:28] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[07:18:28] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[07:18:28] [Client thread/TRACE] [labymod/labymod]: Sending event FMLInitializationEvent to mod labymod
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiDisconnected...
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [ASM] Transforming net.minecraft.client.gui.ScaledResolution...
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded LabyMod-3.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Switched profile to default
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LANGUAGE] en_US is not loaded! Trying to load it..
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LANGUAGE] Using language en_US now.
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded modules.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LANGUAGE] Detected Minecraft language: en_US
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LANGUAGE] Using language en_US now.
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [USER_MANAGER] Registered 44 cosmetics!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [USER_MANAGER] Load whitelist..
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded autotext.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded filters.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded shortcuts.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded playermenu.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded tags.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiMultiplayer...
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded servers.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [ADDON] Enabling and init addon AntiItemDrop...
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [CONFIG_MANAGER] Loaded AntiItemDrop.json!
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [ADDON] Successfull loaded addon AntiItemDrop! (took 9 ms)
+[07:18:29] [Client thread/WARN] [FML/labymod]: =============================================================
+[07:18:29] [Client thread/WARN] [FML/labymod]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[07:18:29] [Client thread/WARN] [FML/labymod]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
+[07:18:29] [Client thread/WARN] [FML/labymod]: Use FMLCommonHandler.exitJava instead
+[07:18:29] [Client thread/WARN] [FML/labymod]: =============================================================
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [DISCORD] Initialize discord rpc..
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [DISCORD] Detected OS version: UNIX
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [DISCORD] Discord lib destination: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/luca/.gradle/caches/minecraft/net/minecraft/natives/1.8.9/libdiscordRPC.so
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [DISCORD] Downloading latest discord library: https://dl.labymod.net/latest/install/discord/unix.so
+[07:18:29] [Client thread/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [DISCORD] Download latest discord library..
+[07:18:29] [Client thread/ERROR] [net.labymod.support.util.CapturePrintStream/labymod]: catching
+java.io.FileNotFoundException: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/luca/.gradle/caches/minecraft/net/minecraft/natives/1.8.9/libdiscordRPC.so (Datei oder Verzeichnis nicht gefunden)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_275]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_275]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_275]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_275]
+	at net.labymod.discordapp.api.DiscordLibraryProvider.download(DiscordLibraryProvider.java:70) [DiscordLibraryProvider.class:?]
+	at net.labymod.discordapp.api.DiscordLibraryProvider.execute(DiscordLibraryProvider.java:62) [DiscordLibraryProvider.class:?]
+	at net.labymod.discordapp.DiscordApp.initialize(DiscordApp.java:82) [DiscordApp.class:?]
+	at net.labymod.main.LabyMod.init(LabyMod.java:286) [LabyMod.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:560) [FMLModContainer.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:211) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:189) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:118) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:737) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:310) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:532) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:360) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:116) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_275]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_275]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_275]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_275]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sent event FMLInitializationEvent to mod labymod
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - LabyMod took 0,640s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,641s
+[07:18:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,002s
+[07:18:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[07:18:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,000s
+[07:18:29] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod labymod
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sending event IMCEvent to mod labymod
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sent event IMCEvent to mod labymod
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - LabyMod took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,002s
+[07:18:29] [Client thread/INFO] [FML/]: Injecting itemstacks
+[07:18:29] [Client thread/INFO] [FML/]: Itemstack injection complete
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,000s
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[07:18:29] [pool-2-thread-4/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [EMOTE] Loaded 0 emotes!
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,047s
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sending event FMLPostInitializationEvent to mod labymod
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sent event FMLPostInitializationEvent to mod labymod
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - LabyMod took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,048s
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[07:18:29] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[07:18:29] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[07:18:29] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[07:18:29] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[07:18:29] [Client thread/DEBUG] [FML/Forge]: Sorting recipies
+[07:18:29] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,004s
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sending event FMLLoadCompleteEvent to mod labymod
+[07:18:29] [Client thread/TRACE] [labymod/labymod]: Sent event FMLLoadCompleteEvent to mod labymod
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - LabyMod took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,005s
+[07:18:29] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[07:18:29] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,004s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,004s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:LabyMod took 0,001s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0,003s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0,000s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0,002s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0,003s
+[07:18:29] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0,007s
+[07:18:30] [pool-2-thread-1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [UPDATER] The latest LabyMod version is v3.7.7, you are currently using LabyMod version v3.7.4
+[07:18:30] [pool-2-thread-1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [UPDATER] You are outdated!
+[07:18:30] [pool-2-thread-3/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [USER_MANAGER] Loaded 199719 whitelisted users.
+[07:18:30] [pool-2-thread-3/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [USER_MANAGER] Successfully loaded all userdata
+[07:18:30] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 0,551s
+[07:18:30] [pool-2-thread-1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [UPDATER] Downloaded latest Updater https://dl.labymod.net/latest/install/updater.jar
+[07:18:30] [Helper#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] Connecting to mod.labymod.net:30336
+[07:18:30] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 0,184s
+[07:18:30] [Client thread/INFO] [FML/]: Max texture size: 16384
+[07:18:30] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [OUT] 0 PacketHelloPing
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [IN] 1 PacketHelloPong
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [OUT] 3 PacketLoginData
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [OUT] 6 PacketLoginOptions
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [OUT] 9 PacketLoginVersion
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,096s
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [IN] 10 PacketEncryptionRequest
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Mipmap generation took 0,078s
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,013s
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,030s
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 1,529s
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 1,529s
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 1,538s
+[07:18:31] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[07:18:31] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[07:18:31] [Client thread/DEBUG] [LabyMod/]: Mod LabyMod is missing a pack.mcmeta file, substituting a dummy one
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] Invalid session
+[07:18:31] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 5,843s
+[07:18:31] [Helper#1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] Save chat log file for 4805b7f8-997e-33ab-826d-ca981b97526b
+[07:18:31] [Helper#1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] Create new log file for 4805b7f8-997e-33ab-826d-ca981b97526b
+[07:18:31] [Helper#1/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] Saved 0 chats!
+[07:18:31] [Chat#0/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [LABYMOD_CHAT] [OUT] 60 PacketDisconnect
+[07:18:31] [pool-14-thread-2/INFO] [net.labymod.support.util.Debug/]: [Debug] [GENERAL] Downloaded texture https://dl.labymod.net/advertisement/icons/discord.png
+[07:18:31] [pool-14-thread-1/INFO] [net.labymod.support.util.Debug/]: [Debug] [GENERAL] Downloaded texture https://dl.labymod.net/advertisement/icons/twitter.png
+[07:18:31] [pool-14-thread-3/INFO] [net.labymod.support.util.Debug/]: [Debug] [GENERAL] Downloaded texture https://dl.labymod.net/advertisement/icons/shop.png
+[07:18:31] [pool-14-thread-4/INFO] [net.labymod.support.util.Debug/]: [Debug] [GENERAL] Downloaded texture https://dl.labymod.net/advertisement/icons/xmas.png
+[07:18:32] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.gui.GuiSlot...
+[07:18:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[07:18:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[07:18:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[07:18:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[07:18:35] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[07:18:35] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[07:18:35] [Server thread/TRACE] [labymod/labymod]: Sending event FMLServerAboutToStartEvent to mod labymod
+[07:18:35] [Server thread/TRACE] [labymod/labymod]: Sent event FMLServerAboutToStartEvent to mod labymod
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - LabyMod took 0,000s
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,001s
+[07:18:35] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[07:18:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[07:18:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[07:18:35] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[07:18:35] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[07:18:35] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[07:18:35] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,000s
+[07:18:35] [Server thread/TRACE] [labymod/labymod]: Sending event FMLModIdMappingEvent to mod labymod
+[07:18:35] [Server thread/TRACE] [labymod/labymod]: Sent event FMLModIdMappingEvent to mod labymod
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - LabyMod took 0,000s
+[07:18:35] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,001s
+[07:18:35] [Server thread/INFO] [FML/]: Applying holder lookups
+[07:18:35] [Server thread/INFO] [FML/]: Holder lookups applied
+[07:18:35] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[07:18:35] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[07:18:35] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[07:18:35] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@14128003)
+[07:18:35] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@14128003)
+[07:18:36] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@14128003)
+[07:18:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[07:18:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[07:18:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[07:18:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[07:18:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[07:18:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,002s
+[07:18:36] [Server thread/TRACE] [labymod/labymod]: Sending event FMLServerStartingEvent to mod labymod
+[07:18:36] [Server thread/TRACE] [labymod/labymod]: Sent event FMLServerStartingEvent to mod labymod
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - LabyMod took 0,000s
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,002s
+[07:18:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[07:18:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[07:18:36] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[07:18:36] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[07:18:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[07:18:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[07:18:36] [Server thread/TRACE] [labymod/labymod]: Sending event FMLServerStartedEvent to mod labymod
+[07:18:36] [Server thread/TRACE] [labymod/labymod]: Sent event FMLServerStartedEvent to mod labymod
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - LabyMod took 0,000s
+[07:18:36] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,000s
+[07:18:36] [Netty Local Client IO #0/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.network.play.server.S21PacketChunkData...
+[07:18:36] [Netty Local Client IO #0/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.network.play.server.S26PacketMapChunkBulk...
+[07:18:36] [Netty Local Client IO #0/TRACE] [FML/]: Handshake channel activating
+[07:18:36] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[07:18:36] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: HELLO
+[07:18:36] [Netty Local Client IO #0/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.minecraft.client.network.NetHandlerPlayClient...
+[07:18:36] [Netty Local Client IO #0/INFO] [net.labymod.support.util.CapturePrintStream/]: net.minecraft.client.network.NetHandlerPlayClient
+[07:18:37] [Netty Server IO #1/TRACE] [FML/]: Handshake channel activating
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[07:18:37] [Netty Local Client IO #0/INFO] [FML/]: Server protocol version 2
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: Received override dimension 0
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[07:18:37] [Netty Server IO #1/INFO] [FML/]: Client protocol version 2
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: HELLO
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:4 mods->FMLHandshakeServerState$2:HELLO
+[07:18:37] [Netty Server IO #1/INFO] [FML/]: Client attempting to join with 4 mods : labymod@3.7.4,FML@8.0.99.99,Forge@11.15.1.1855,mcp@9.19
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: WAITINGCACK
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:4 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: COMPLETE
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[07:18:37] [Netty Local Client IO #0/DEBUG] [FML/]:   Next: DONE
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[07:18:37] [Netty Server IO #1/DEBUG] [FML/]:   Next: DONE
+[07:18:37] [Netty Local Client IO #0/INFO] [FML/]: [Netty Local Client IO #0] Client side modded connection established
+[07:18:37] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[07:18:37] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[07:18:37] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [PLUGINMESSAGE] [IN] MC|Brand
+[07:18:37] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [GENERAL] No shaders mod installed
+[07:18:37] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [CONFIG_MANAGER] Switched profile to default
+[07:18:37] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [CONFIG_MANAGER] Loaded modules.json!
+[07:18:42] [Client thread/INFO] [net.labymod.support.util.CapturePrintStream/]: Chest
+[07:18:43] [Client thread/INFO] [net.labymod.support.util.CapturePrintStream/]: Chest
+[07:18:46] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [ASM] Transforming net.labymod.mojang.afec.EntityAFECFields...
+[07:19:21] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[07:20:06] [Client thread/INFO] [net.labymod.core_implementation.mc18.gui.GuiChatAdapter/]: [CHAT] Player958 has just earned the achievement [Taking Inventory]
+[07:20:06] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[07:20:51] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[07:21:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[07:21:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[07:21:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[07:21:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,000s
+[07:21:30] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[07:21:30] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[07:21:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,000s
+[07:21:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[07:21:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[07:21:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,000s
+[07:21:30] [Server thread/TRACE] [labymod/labymod]: Sending event FMLServerStoppingEvent to mod labymod
+[07:21:30] [Server thread/TRACE] [labymod/labymod]: Sent event FMLServerStoppingEvent to mod labymod
+[07:21:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - LabyMod took 0,000s
+[07:21:30] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,001s
+[07:21:30] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[07:21:31] [Server thread/INFO] [FML/]: Unloading dimension 0
+[07:21:31] [Server thread/INFO] [FML/]: Unloading dimension -1
+[07:21:31] [Server thread/INFO] [FML/]: Unloading dimension 1
+[07:21:31] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[07:21:31] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[07:21:31] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[07:21:31] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[07:21:31] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[07:21:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[07:21:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,000s
+[07:21:31] [Server thread/TRACE] [labymod/labymod]: Sending event FMLModIdMappingEvent to mod labymod
+[07:21:31] [Server thread/TRACE] [labymod/labymod]: Sent event FMLModIdMappingEvent to mod labymod
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - LabyMod took 0,000s
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,001s
+[07:21:31] [Server thread/INFO] [FML/]: Applying holder lookups
+[07:21:31] [Server thread/INFO] [FML/]: Holder lookups applied
+[07:21:31] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[07:21:31] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[07:21:31] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[07:21:31] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[07:21:31] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[07:21:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[07:21:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[07:21:31] [Server thread/TRACE] [labymod/labymod]: Sending event FMLServerStoppedEvent to mod labymod
+[07:21:31] [Server thread/TRACE] [labymod/labymod]: Sent event FMLServerStoppedEvent to mod labymod
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - LabyMod took 0,000s
+[07:21:31] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,001s
+[07:21:31] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded 0 unused labymodcloak and 0 had no labymod textures! 0 labymodcloak left.
+[07:21:31] [Client thread/INFO] [net.labymod.support.util.Debug/]: [Debug] [COSMETIC_IMAGE_MANAGER] Unloaded 0 unused labymodbandana and 0 had no labymod textures! 0 labymodbandana left.
+[07:21:31] [Thread-15/INFO] [net.labymod.support.util.Debug/labymod]: [Debug] [UPDATER] Executing LabyMod Updater
