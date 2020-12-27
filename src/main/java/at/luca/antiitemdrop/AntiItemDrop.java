@@ -8,8 +8,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiChest;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.inventory.IInventory;
+import net.minecraft.inventory.Slot;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraft.network.Packet;
 import net.minecraft.network.play.client.C0EPacketClickWindow;
 
@@ -23,7 +23,7 @@ public class AntiItemDrop extends LabyModAddon {
 
     static {
         try {
-            lowerInventoryField = GuiChest.class.getDeclaredField(LabyModCoreMod.isObfuscated() ?  "w" : "lowerChestInventory");
+            lowerInventoryField = GuiChest.class.getDeclaredField(LabyModCoreMod.isObfuscated() ?  LabyModCoreMod.isForge() ? "field_147015_w" : "w" : "lowerChestInventory");
             lowerInventoryField.setAccessible(true);
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
@@ -52,8 +52,7 @@ public class AntiItemDrop extends LabyModAddon {
             return true;
         }
         C0EPacketClickWindow windowClickPacket = (C0EPacketClickWindow) packet;
-        System.out.println(windowClickPacket.getSlotId());
-        if (windowClickPacket.getSlotId() < 0) {
+        if (windowClickPacket.getMode() != 0 /* ClickType Pickup, so that shifting is supported.*/) {
             return true;
         }
         GuiContainer container = (GuiContainer) minecraft.currentScreen;
@@ -72,8 +71,8 @@ public class AntiItemDrop extends LabyModAddon {
                 }
             }
 
-            ItemStack stack = container.inventorySlots.getSlot(windowClickPacket.getSlotId()).getStack();
-            if (stack == null || stack.getItem() == Item.getItemById(0)) {
+            Slot slot = container.inventorySlots.getSlot(windowClickPacket.getSlotId());
+            if (windowClickPacket.getSlotId() >= 0 && (slot.getStack() == null || slot.getStack().getItem() == Item.getItemById(0))) {
                 lastSentPacket = windowClickPacket;
                 return false;
             } else if (lastSentPacket != null) {
