@@ -1,7 +1,7 @@
 {
   "uuid": "%uuid%",
   "name": "AntiItemDrop",
-  "description": "Dieses Addon verhindert, dass Items die derzeit in der Hand liegen nicht gedroppt werden wenn das Inventar geschlossen wird.",
+  "description": "Dieses Addon verhindert, dass Items die derzeit in der Hand liegen gedroppt werden wenn das Inventar geschlossen wird.",
   "mainClass": "at.luca.antiitemdrop.AntiItemDrop",
   "transformerClass": "at.luca.antiitemdrop.transformer.NetHandlerPlayClientTransformer",
   "version": 1,

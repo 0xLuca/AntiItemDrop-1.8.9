@@ -71,8 +71,8 @@ public class AntiItemDrop extends LabyModAddon {
                 }
             }
 
-            Slot slot = container.inventorySlots.getSlot(windowClickPacket.getSlotId());
-            if (windowClickPacket.getSlotId() >= 0 && (slot.getStack() == null || slot.getStack().getItem() == Item.getItemById(0))) {
+            Slot slot;
+            if (windowClickPacket.getSlotId() >= 0 && ((slot = container.inventorySlots.getSlot(windowClickPacket.getSlotId())).getStack() == null || slot.getStack().getItem() == Item.getItemById(0))) {
                 lastSentPacket = windowClickPacket;
                 return false;
             } else if (lastSentPacket != null) {
